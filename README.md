@@ -3,6 +3,6 @@
 Suddivisione Lavoro HOMEPAGE:
 
 Valentina: Sezione "Ultime Novità";
-Matteo: Sezione "Giochi in Evidenza";
+Matteo: Sezione "Dal background Play in rosso + Footer";
 Marco G.: Sezione "Navbar";
 Marco V.: Sezione ""; 
