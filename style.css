@@ -6,12 +6,17 @@
 
 body{
     color: #747474;
+    background-color: #F3F3F3;
     font-size:17px;
     overflow-x:hidden;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Verdana", "Helvetica", "Arial", sans-serif;
 }
 
 h1, h2{
     color: #161616;
+}
+
+.title{
+    font-size: 45px;
 }
 
