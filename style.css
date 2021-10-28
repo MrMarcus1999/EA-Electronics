@@ -1,0 +1,74 @@
+:root {
+    --ea-theme-ea-corporate-header-font-family: "ElectronicArtsDisplay", "Verdana", "Helvetica", "Arial", sans-serif;
+    --ea-theme-ea-corporate-body-font-family: "ElectronicArtsText", "Verdana", "Helvetica", "Arial", sans-serif;
+    --ea-theme-header-font-family: "ElectronicArtsDisplay", "Verdana", "Helvetica", "Arial", sans-serif;
+    --ea-theme-local-nav-font-color-light: var(--ea-light-color);
+    --ea-theme-local-nav-font-color-dark: var(--ea-dark-color);
+    --ea-theme-local-nav-font-color-hover: var(--ea-theme-color);
+    --ea-dark-color: #161616;
+}
+body {
+    margin: 0%;
+    padding: 0%;
+}
+.loginbar {
+    padding: 20px;
+    background-color: var(--ea-dark-color)}
+header{
+    padding-left: 17px;
+     background-color:var(--ea-theme-local-nav-font-color-light);
+   
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.predotsnavbar {
+    
+   display: flex;
+    height: 20px;
+    width: 12px;
+    
+    margin-left: 15px;
+
+}
+
+
+.logoEAnavbar {
+    
+    display: flex;
+    align-items:flex-start ;
+    width: 160px;
+    height: 35px;
+}
+.anchorlogoEAnavbar {
+    
+    margin-left: 30px;
+    margin-right: 15px;
+}
+.headnav {
+    margin:0px 36px 0px 48px;
+}
+nav {
+    height: 60px;
+}
+ul {
+   
+    
+    font-weight: 400;
+    height: 50px;
+    list-style-type: none;
+    font-size: 20px;
+}
+ul > li {
+   
+    
+    font-weight: 400;
+    font:var(--ea-theme-local-nav-font-color-dark);
+    font-family: var(--ea-theme-header-font-family);
+    margin-left:20px;
+    display: inline-block;
+    
+    
+}
+
+}
