@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    color: #747474;
+    font-size:17px;
+    overflow-x:hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2{
+    color: #161616;
+}
+
