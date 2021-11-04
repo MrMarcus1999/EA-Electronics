@@ -1,3 +1,6 @@
+
+@charset "utf-8";
+
 :root {
     --ea-theme-ea-corporate-header-font-family: "ElectronicArtsDisplay", "Verdana", "Helvetica", "Arial", sans-serif;
     --ea-theme-ea-corporate-body-font-family: "ElectronicArtsText", "Verdana", "Helvetica", "Arial", sans-serif;
@@ -71,4 +74,123 @@ ul > li {
     
 }
 
+*{
+    box-sizing: border-box;
+}
+
+body{
+    color: #747474;
+    background-color: #F3F3F3;
+    font-size:17px;
+    overflow-x:hidden;
+    font-family: "Verdana", "Helvetica", "Arial", sans-serif;
+}
+
+a{
+    color: rgba(22, 22, 22, 0.8);
+}
+
+h1, h2, h3{
+    color: #161616;
+}
+
+img{
+    width:100%;
+}
+
+.container{
+    width:100%;
+    max-width:960px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin:0 auto;  
+}
+
+.title{
+    font-size: 32px;
+    font-weight:700;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    height:70px;
+    align-items:center;
+    margin: 1.5rem 0;
+}
+
+.subnav ul{
+    display:flex;
+    flex-direction:row;
+}
+
+.subnav ul li a{
+    padding:15px;
+    text-decoration: none;
+}
+
+#bg-gray{
+    background: rgba(0, 0, 0, 0.08);
+    border-bottom:2px solid #EB4141;
+}
+
+.subnav ul span{
+    color: #DEDEDE;
+}
+
+hr{
+    border: 1px solid #DEDEDE;
+    margin: 1em 0;
+}
+
+.sec{
+    display:flex;
+    flex-direction:row;
+}
+
+.art{
+    width: 350px;
+    margin:40px 15px;
+    background-color: #fff;
+    box-shadow: 0 3px 18px rgba(0, 0, 0, 0.5);
+}
+
+.white-wrapper{
+    padding:20px;
+}
+
+.white-wrapper h5 span{
+    color: #FF4747;
+    font-weight: 700;
+    font-size:13px;
+}
+
+.white-wrapper h5, h2, p{
+    color: #161616;
+    line-height:1.5em;
+}
+
+.white-wrapper h5{
+    font-size:13px;
+    font-weight: 700;
+}
+
+.white-wrapper h2{
+    font-size:23px;
+    font-weight: 700;
+}
+
+.button button{
+    font-size: 18px;
+    padding:15px 25px;
+    cursor: pointer;
+    margin-bottom:3rem;
+    border: 2px solid #161616;
+    border-radius:3px;
+    transition: transform .2s;
+}
+
+.button button:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
 }
