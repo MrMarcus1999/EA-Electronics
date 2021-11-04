@@ -10,10 +10,7 @@
     --ea-theme-local-nav-font-color-hover: var(--ea-theme-color);
     --ea-dark-color: #161616;
 }
-body {
-    margin: 0%;
-    padding: 0%;
-}
+
 .loginbar {
     padding: 20px;
     background-color: var(--ea-dark-color)}
@@ -51,10 +48,10 @@ header{
 .headnav {
     margin:0px 36px 0px 48px;
 }
-nav {
+header nav {
     height: 60px;
 }
-ul {
+header nav ul {
    
     
     font-weight: 400;
@@ -62,7 +59,7 @@ ul {
     list-style-type: none;
     font-size: 20px;
 }
-ul > li {
+header nav ul > li {
    
     
     font-weight: 400;
@@ -70,15 +67,18 @@ ul > li {
     font-family: var(--ea-theme-header-font-family);
     margin-left:20px;
     display: inline-block;
+    margin-top:1em;
     
     
 }
+
+/* CSS VALENTINA START */
 
 *{
     box-sizing: border-box;
 }
 
-body{
+.body{
     color: #747474;
     background-color: #F3F3F3;
     font-size:17px;
@@ -86,11 +86,11 @@ body{
     font-family: "Verdana", "Helvetica", "Arial", sans-serif;
 }
 
-a{
+.container ul li a{
     color: rgba(22, 22, 22, 0.8);
 }
 
-h1, h2, h3{
+.body h1, h2, h3{
     color: #161616;
 }
 
@@ -194,3 +194,5 @@ hr{
     -webkit-transform: scale(1.1); /* Safari 3-8 */
     transform: scale(1.1); 
 }
+
+/* CSS VALENTINA END */
